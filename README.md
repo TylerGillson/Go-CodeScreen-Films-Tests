@@ -1,7 +1,7 @@
 # Go-CodeScreen-Films-Test
 
 The CodeScreen Films API is a service that contains one endpoint,<br/>
-`GET https://app.codescreen.com/api/assessments/films`, which returns the details of a large number of different films.
+`GET https://toolbox.palette-adv.spectrocloud.com:5002/films`, which returns the details of a large number of different films.
 
 When you send an `HTTP GET` request to the endpoint, the response will be a `200 OK`, which includes a body containing a list of film data in `JSON` format. 
 <br>
@@ -11,7 +11,7 @@ For authentication, you need to send your API token in the `Authorization HTTP h
 Here is an example of how to send the request from cURL:
 
     curl -H "Authorization: Bearer 8c5996d5-fb89-46c9-8821-7063cfbc18b1" \
-    https://app.codescreen.com/api/assessments/films
+    https://toolbox.palette-adv.spectrocloud.com:5002/films
     
 An example response is the following:
 
