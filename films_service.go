@@ -1,6 +1,6 @@
 package films
 
-const filmsEndpointUrl string = "https://app.codescreen.com/api/assessments/films"
+const filmsEndpointUrl string = "https://toolbox.palette-adv.spectrocloud.com:5002/films"
 
 // Your API token. Needed to successfully authenticate when calling the films endpoint.
 // This needs to be included in the Authorization header in the request you send to the films endpoint.
@@ -9,7 +9,7 @@ const apiToken string = "8c5996d5-fb89-46c9-8821-7063cfbc18b1"
 type Film struct {
 }
 
-// Retrieves the data for all films by calling the https://app.codescreen.com/api/assessments/films endpoint.
+// Retrieves the data for all films by calling the https://toolbox.palette-adv.spectrocloud.com:5002/films endpoint.
 func GetFilms() []Film {
 	//TODO Implement
 	return nil
