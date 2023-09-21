@@ -16,7 +16,7 @@ func GetFilms() []Film {
 }
 
 // BestRatedFilm retrieves the name of the best rated film that was directed by the director with the given name.
-// If there are no films directed the the given director, return an empty string.
+// If there are no films directed by the given director, return an empty string.
 // Note: there will only be one film with the best rating.
 func BestRatedFilm(directorName string) string {
 	//TODO Implement
@@ -39,7 +39,7 @@ func AverageRating(directorName string) float64 {
 
 /*
 ShortestFilmReleaseGap retrieves the shortest number of days between any two film releases directed by the given director.
-If there are no films directed the the given director, return 0.
+If there are no films directed by the given director, return 0.
 If there is only one film directed by the given director, return 0.
 Note: no director released more than one film on any given day.
 
