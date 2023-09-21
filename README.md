@@ -60,6 +60,6 @@ Run `go test` to run the unit tests. These should all pass if your solution has 
 
 ##
 
-This test should take no longer than 2 hours to complete successfully.
+This test should take no longer than 1 hour to complete successfully.
 
 Good luck!
